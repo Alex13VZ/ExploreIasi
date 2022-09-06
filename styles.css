@@ -1,0 +1,75 @@
+.container{
+  width: 300px;
+  height: 500px;
+
+}
+body{
+  background-image: url(/splash/media/Splash-Image\ 1.png);
+}
+
+@media screen and (min-width: 450px) {
+  .container {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.tower{
+width: 64px;
+height: 124px;
+
+align-items: center;
+}
+.img-tower{
+margin-left: 100%;
+}
+
+
+
+
+.powered-by{
+  
+position: absolute;
+width: 54px;
+height: 28px;
+left: 160px;
+top: 584px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 44px;
+color: #FFFFFF;
+
+}
+.exploreiasi{
+  position: absolute;
+width: 144px;
+height: 44px;
+left: 115px;
+top: 370px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 44px;
+/* identical to box height, or 157% */
+
+
+color: #FFFFFF;
+
+
+}
+.Wantsome_Alb{
+  position: absolute;
+width: 100px;
+height: 18px;
+left: 137px;
+top: 618px;
+
+background: url(Wantsome_Alb.png);
+}
