@@ -72,3 +72,182 @@ top: 618px;
 
 background: url(Wantsome_Alb.png);
 }
+
+.Ellipse163{
+  position: absolute;
+width: 36px;
+height: 36px;
+left: 47px;
+top: 40px;
+}
+.Ellipse156{
+  position: absolute;
+width: 76px;
+height: 76px;
+left: 47px;
+top: 113px;
+}
+.Ellipse1{
+
+  position: absolute;
+width: 40px;
+height: 40px;
+left: 178px;
+top: 79px;
+
+}
+
+.Ellipse162{
+  position: absolute;
+width: 49px;
+height: 49px;
+left: 293px;
+top: 30px;
+}
+.Ellipse159{
+  position: absolute;
+width: 56px;
+height: 56px;
+left: 245px;
+top: 153px;
+}
+.discover{
+
+position: absolute;
+width: 195px;
+height: 16px;
+left: 50px;
+top: 237px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 89% */
+
+letter-spacing: -0.05px;
+
+color: #FFFFFF;
+}
+h3{position: absolute;
+width: 221px;
+height: 16px;
+left: 60px;
+top: 269px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 26px;
+/* identical to box height, or 50% */
+
+letter-spacing: -0.05px;
+
+color: #FFFFFF;
+
+
+}
+form{
+box-sizing: border-box;
+
+position: absolute;
+width: 326px;
+height: 48px;
+left: 24px;
+top: 421px;
+
+}
+input[type=email]{
+  
+  width: 100%;
+  background-color:transparent;
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.8);
+  border: solid 1px #FFFFFF;
+  padding: 10px;
+  
+}
+
+input[type=password]{
+  
+  width: 100%;
+  background-color:transparent;
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.8);
+  border: solid 1px #FFFFFF;
+  padding: 10px;
+  
+}
+
+.forgot-password{
+  position: absolute;
+width: 122px;
+height: 16px;
+left: 228px;
+top: 120px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+letter-spacing: -0.05px;
+
+color: #FFFFFF;
+
+}
+
+.register{
+
+position: absolute;
+width: 244px;
+height: 16px;
+left: 65px;
+top: 200px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+letter-spacing: -0.05px;
+
+color: #FFFFFF;
+
+}
+
+button{
+  position: absolute;
+  margin-bottom:50px;
+  width: 327px;
+  height: 48px;
+  left: 24px;
+  top: 250px;
+
+  
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+
+
+
+.submit{
+  width: 327px;
+  height: 48px;
+  left: 24px;
+  top: 279px;
+  
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+button.submit{
+
+  margin-bottom: 50px; 
+}
