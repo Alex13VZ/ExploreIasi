@@ -1,9 +1,12 @@
-.container{
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
   width: 300px;
   height: 500px;
-
 }
-body{
+body {
   background-image: url(/splash/media/Splash-Image\ 1.png);
 }
 
@@ -15,239 +18,188 @@ body{
     padding: 0;
   }
 }
-
-.tower{
-position: absolute;
-width: 48.69px;
-height: 120.5px;
-left: 162.92px;
-top: 245px;
-
-}
-
-
-
-
-.powered-by{
-  
-position: absolute;
-width: 54px;
-height: 28px;
-left: 160px;
-top: 584px;
-
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 44px;
-color: #FFFFFF;
-
-}
-.exploreiasi{
-  position: absolute;
-width: 144px;
-height: 44px;
-left: 115px;
-top: 370px;
-
-font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 44px;
-/* identical to box height, or 157% */
-
-
-color: #FFFFFF;
-
-
-}
-.Wantsome_Alb{
-  position: absolute;
-width: 100px;
-height: 18px;
-left: 137px;
-top: 618px;
-
-background: url(Wantsome_Alb.png);
-}
-
-.Ellipse163{
-  position: absolute;
-width: 36px;
-height: 36px;
-left: 47px;
-top: 40px;
-}
-.Ellipse156{
-  position: absolute;
-width: 76px;
-height: 76px;
-left: 47px;
-top: 113px;
-}
-.Ellipse1{
-
-  position: absolute;
-width: 40px;
-height: 40px;
-left: 178px;
-top: 79px;
-
-}
-
-.Ellipse162{
-  position: absolute;
-width: 49px;
-height: 49px;
-left: 293px;
-top: 30px;
-}
-.Ellipse159{
-  position: absolute;
-width: 56px;
-height: 56px;
-left: 245px;
-top: 153px;
-}
-.discover{
-
-position: absolute;
-width: 195px;
-height: 16px;
-left: 50px;
-top: 237px;
-
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 16px;
-/* identical to box height, or 89% */
-
-letter-spacing: -0.05px;
-
-color: #FFFFFF;
-}
-h3{position: absolute;
-width: 221px;
-height: 16px;
-left: 60px;
-top: 269px;
-
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 26px;
-/* identical to box height, or 50% */
-
-letter-spacing: -0.05px;
-
-color: #FFFFFF;
-
-
-}
-form{
-box-sizing: border-box;
-
-position: absolute;
-width: 326px;
-height: 48px;
-left: 24px;
-top: 421px;
-
-}
-input[type=email]{
-  
+.container-login {
   width: 100%;
-  background-color:transparent;
+  height: 100%;
+  padding: 24px;
+}
+
+.tower {
+  position: absolute;
+  width: 48.69px;
+  height: 120.5px;
+  left: 162.92px;
+  top: 245px;
+}
+
+.powered-by {
+  position: absolute;
+  width: 54px;
+  height: 28px;
+  left: 160px;
+  top: 584px;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 44px;
+  color: #ffffff;
+}
+.exploreiasi {
+  position: absolute;
+  width: 144px;
+  height: 44px;
+  left: 115px;
+  top: 370px;
+
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  /* identical to box height, or 157% */
+
+  color: #ffffff;
+}
+.Wantsome_Alb {
+  position: absolute;
+  width: 100px;
+  height: 18px;
+  left: 137px;
+  top: 618px;
+
+  background: url(Wantsome_Alb.png);
+}
+
+.Ellipse163 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 47px;
+  top: 40px;
+}
+.Ellipse156 {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  left: 47px;
+  top: 113px;
+}
+.ellipse-container {
+  height: 200px;
+}
+.Ellipse1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 178px;
+  top: 79px;
+}
+
+.Ellipse162 {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  left: 293px;
+  top: 30px;
+}
+
+.Ellipse159 {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 245px;
+  top: 153px;
+}
+
+.discover {
+  font-family: "SF Pro Display";
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 89% */
+
+  letter-spacing: -0.05px;
+
+  color: #ffffff;
+}
+
+h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  /* identical to box height, or 50% */
+
+  letter-spacing: -0.05px;
+
+  color: #ffffff;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  margin-bottom: 16px;
+  background-color: transparent;
   border-radius: 6px;
   color: rgba(255, 255, 255, 0.8);
-  border: solid 1px #FFFFFF;
+  border: solid 1px #ffffff;
   padding: 10px;
-  
 }
 
-input[type=password]{
-  
+.forgot-password {
+  position: absolute;
+  right: 0;
+  font-family: "SF Pro Display";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: -0.05px;
+
+  color: #ffffff;
+}
+
+.register {
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 90px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: -0.05px;
+
+  color: #ffffff;
+}
+
+button {
+  border: none;
+  outline: none;
+  margin-top: 16px;
+
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 50px;
   width: 100%;
-  background-color:transparent;
-  border-radius: 6px;
-  color: rgba(255, 255, 255, 0.8);
-  border: solid 1px #FFFFFF;
-  padding: 10px;
-  
-}
-
-.forgot-password{
-  position: absolute;
-width: 122px;
-height: 16px;
-left: 228px;
-top: 120px;
-
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height, or 114% */
-
-letter-spacing: -0.05px;
-
-color: #FFFFFF;
-
-}
-
-.register{
-
-position: absolute;
-width: 244px;
-height: 16px;
-left: 65px;
-top: 200px;
-
-font-family: 'SF Pro Display';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height, or 114% */
-
-letter-spacing: -0.05px;
-
-color: #FFFFFF;
-
-}
-
-button{
-  position: absolute;
-  margin-bottom:50px;
-  width: 327px;
   height: 48px;
-  left: 24px;
-  top: 250px;
 
-  
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
 }
 
-
-
-
-.submit{
-  width: 327px;
-  height: 48px;
-  left: 24px;
-  top: 279px;
-  
-  background: #FFFFFF;
-  border-radius: 8px;
+::placeholder {
+  color: rgba(255, 255, 255, 0.8);
 }
-button.submit{
 
-  margin-bottom: 50px; 
+.input-container {
+  display: flex;
+  flex-direction: column;
 }
