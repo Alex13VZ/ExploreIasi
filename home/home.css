@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+section{
+    background-image:url("/home/media/image\ 1.png");
+    background-color: red;
+    padding: 16px;
+
+}
+h3{
+color: white;
+}
+h1{
+    color:white;
+}
+
+p{
+color: white;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    transform: translateX(-20px);
+}
+
+.img2{
+    display: flex;
+}
