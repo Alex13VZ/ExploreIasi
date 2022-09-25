@@ -6,14 +6,32 @@
 
 
 
+.sec > div{
+     
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
 
-section{
-    background-image:url("/home/media/image\ 1.png");
-    background-color: red;
+ 
+}
+.container-image{
     padding: 16px;
+    background-image:url("/home/media/image\ 1.png");
+    z-index: 0;
+    border-radius: 10px;
 
 }
+
+.search-bar{
+    width: 100%;
+   z-index: 10px;
+}
+
+
+
 h3{
 color: white;
 }
@@ -21,17 +39,20 @@ h1{
     color:white;
 }
 
-p{
-color: white;
-}
-
 .img{
     display: flex;
-    justify-content: flex-end;
-    width: 100vw;
-    transform: translateX(-20px);
+     width: 50px;
+    height: 50px;
+    transform: translateX(320px);
+
 }
 
-.img2{
+
+
+.img1{
     display: flex;
+    
+}
+.p1{
+    color: white;
 }
