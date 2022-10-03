@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 p {
@@ -17,8 +17,8 @@ p {
   padding: 16px;
   background-image: url("/home/media/image\ 1.png");
   z-index: 0;
-  border-top-left-radius : 10px;
-  border-top-right-radius : 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
@@ -109,4 +109,177 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.pop {
+  color: black;
+  margin-left: 16px;
+}
+
+.bloc1-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.imaginea1 {
+  top: 24px;
+}
+
+.union {
+  top: 24px;
+}
+
+.text1 {
+  display: flex;
+}
+
+.cuza {
+  color: black;
+}
+
+.union-museum {
+  color: black;
+}
+.poza1 {
+  padding: 24px 8px 32px 16px;
+}
+.poza2 {
+  padding: 24px 32px 16px;
+}
+.textul1 {
+  display: flex;
+  flex-direction: row;
+}
+.para1 {
+  margin-left: 8px;
+}
+
+.textul2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.para2 {
+  margin-left: 8px;
+}
+.pop-container {
+  display: flex;
+  flex-direction: row;
+}
+.locatia1 {
+  margin-left: 100px;
+  color: purple;
+}
+.culoarea-mov {
+  margin-left: 8px;
+  color: purple;
+}
+
+.paragraf2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.ms1 {
+  color: black;
+}
+.museum {
+  display: flex;
+  flex-direction: row;
+}
+.ms1 {
+  margin-left: 16px;
+  margin-bottom: 24px;
+}
+.locatia2 {
+  margin-left: 156px;
+  margin-bottom: 24px;
+}
+.culoarea2 {
+  margin-left: 8px;
+  color: purple;
+}
+.poza3 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 8px 32px 16px;
+}
+.poza4 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px 16px;
+}
+
+.bloc2-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.textul3 {
+  display: flex;
+  flex-direction: row;
+}
+.textul4 {
+  display: flex;
+  flex-direction: row;
+}
+.para3 {
+  margin-left: 8px;
+}
+
+.para4 {
+  margin-left: 8px;
+}
+
+.pz {
+  height: 206px;
+}
+.mrr {
+  white-space: nowrap;
+}
+
+.park1 {
+  color: black;
+  margin-left: 16px;
+}
+.park {
+  display: flex;
+  flex-direction: row;
+}
+.locatia3 {
+  margin-left: 100px;
+}
+.culoarea3 {
+  margin-left: 8px;
+  color: purple;
+}
+
+.bloc3-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.poza5 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 8px 32px 16px;
+}
+.poza6 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px 16px;
+}
+.textul5 {
+  display: flex;
+  flex-direction: row;
+}
+.textul6 {
+  display: flex;
+  flex-direction: row;
+}
+.culoarea4 {
+  margin-left: 8px;
+}
+.culoarea5 {
+  margin-left: 8px;
 }
