@@ -283,3 +283,47 @@ h1 {
 .culoarea5 {
   margin-left: 8px;
 }
+
+.mons {
+  display: flex;
+  flex-direction: row;
+}
+.monst1 {
+  color: black;
+  margin-left: 16px;
+}
+.locatia4 {
+  margin-left: 134px;
+}
+
+.poza7 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 8px 32px 16px;
+}
+
+.col1 {
+  margin-left: 8px;
+}
+
+.bloc4-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.poza8 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px 16px;
+}
+.col2 {
+  margin-left: 8px;
+}
+.textul7 {
+  display: flex;
+  flex-direction: row;
+}
+.textul8 {
+  display: flex;
+  flex-direction: row;
+}
