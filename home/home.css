@@ -333,3 +333,152 @@ h1 {
   top: 20px;
   right: 15px;
 }
+.popular {
+  display: flex;
+  flex-direction: row;
+}
+.tours {
+  color: black;
+  margin-left: 16px;
+}
+.loc5 {
+  margin-left: 130px;
+}
+.poza9 {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 25px 16px 16px;
+}
+.hist {
+  margin-left: 16px;
+}
+.night {
+  background-color: blueviolet;
+  margin-left: 40px;
+  margin-top: 347px;
+  position: absolute;
+}
+.contul1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: -56px;
+}
+
+.steluta1 {
+  width: 15px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+.rev {
+  margin-top: 17px;
+  margin-left: 5px;
+}
+.mic {
+  display: flex;
+  flex-direction: row;
+  margin-left: 13px;
+  margin-top: 8px;
+}
+
+.px1 {
+  margin-left: 6px;
+}
+.casti1 {
+  margin-left: 90px;
+}
+.px2 {
+  margin-left: 6px;
+}
+
+.poza10 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.dy {
+  background-color: orange;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 160px;
+}
+
+.crt {
+  margin-left: 16px;
+}
+.poza11 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.wt {
+  background-color: aqua;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 215px;
+}
+.butonel {
+  background-color: white;
+  border-color: blueviolet;
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+.glob {
+  margin-left: 120px;
+}
+.txt-btn {
+  margin-left: 10px;
+}
+
+.linie {
+  border: 1px solid;
+  margin-top: 30px;
+  background-color: aqua;
+}
+.cont-footer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mini-cont1 {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(5px);
+}
+.mini-cont2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  transform: translateX(30px);
+}
+.mini-cont3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  transform: translateX(70px);
+}
+.micut1 {
+  width: 20px;
+  transform: translateX(35px);
+}
+.unic {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.micut2 {
+  width: 20px;
+  transform: translateX(15px);
+}
+.micut3 {
+  width: 20px;
+  transform: translateX(10px);
+}
