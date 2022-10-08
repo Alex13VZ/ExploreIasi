@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: o;
+}
+main {
+  background-image: url("/UserSettings/media/poza.jpg");
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.contul1 {
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+}
+.sageata {
+  width: 15px;
+  margin-left: 20px;
+  margin-top: 45px;
+}
+.us {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 80px;
+  color: white;
+}
+.icoana {
+  margin-top: -25px;
+  margin-left: 150px;
+  height: 50px;
+}
+.grupa1 {
+  display: flex;
+  flex-direction: row;
+}
+.albert {
+  margin-left: 115px;
+  margin-top: 16px;
+}
+.creion {
+  margin-left: 10px;
+  height: 10px;
+  margin-top: 20px;
+}
+.scris {
+  margin-left: 125px;
+  margin-top: -20px;
+  font-size: 13px;
+}
+.acc {
+  margin-left: 16px;
+  margin-top: 25px;
+  font-family: fantasy;
+}
+.mi {
+  display: flex;
+  flex-direction: column;
+}
+.c1 {
+  display: flex;
+  flex-direction: row;
+}
+.g1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -25px;
+}
+.cr {
+  margin-left: 17px;
+}
+.cr1 {
+  margin-left: 10px;
+}
+.gb {
+  margin-left: 17px;
+}
+.gb1 {
+  margin-left: 10px;
+}
+.L {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: -78px;
+}
+.L2 {
+  display: flex;
+  flex-direction: row;
+}
+.L3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -20px;
+}
+.ban {
+  font-size: 15px;
+  margin-right: -20px;
+  margin-left: 20px;
+  color: gray;
+}
+.en {
+  font-size: 15px;
+  color: gray;
+}
+.sg1 {
+  margin-left: 46px;
+  margin-right: 20px;
+}
+.sg2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
