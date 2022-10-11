@@ -10,7 +10,7 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="UserSettings.css" />
-    <script type="module" src="script.js"></script>
+    <script async src="/UserSettings/UserSettings.js"></script>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                 <img class="cr" src="/UserSettings/media/curency.svg" alt="">
                 <p class="cr1">Currency</p>
             </div>
-            <div class="g1">
+            <div class="g1" onclick="openLanguages()">
                 <img class="gb" src="/UserSettings/media/glob.svg" alt="">
                 <p class="gb1">Language</p>
             </div>
@@ -44,9 +44,10 @@
                 <p class="ban">Lei</p>
                 <img class="sg1" src="/UserSettings/media/sageata-mica dreapta.svg" alt="">
             </div>
-            <div class="L3">
+            <div class="L3" >
                 <p class="en">English</p>
                 <img class="sg2" src="/UserSettings/media/sageata-mica dreapta.svg" alt="">
+
             </div>
         </div>
         <div class="linie"></div>
@@ -67,7 +68,7 @@
         </label>
 
         <label class="switch1">
-            <input type="checkbox">
+            <input class="sw" type="checkbox" onclick="onClickHandler(event)">
             <span class="slider round"></span>
         </label>
         <div class="linie"></div>
