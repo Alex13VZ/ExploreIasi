@@ -59,46 +59,33 @@ main {
 .c1 {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .g1 {
   display: flex;
   flex-direction: row;
-  margin-top: -25px;
+  justify-content: space-between;
 }
 .cr {
   margin-left: 17px;
 }
 .cr1 {
-  margin-left: 10px;
+  margin-left: -100px;
 }
 .gb {
   margin-left: 17px;
 }
 .gb1 {
-  margin-left: 10px;
-}
-.L {
-  display: flex;
-  flex-direction: column;
-  float: right;
-  margin-top: -78px;
-}
-.L2 {
-  display: flex;
-  flex-direction: row;
-}
-.L3 {
-  display: flex;
-  flex-direction: row;
-  margin-top: -20px;
+  margin-left: -100px;
 }
 .ban {
   font-size: 15px;
-  margin-right: -20px;
-  margin-left: 20px;
+  margin-right: -110px;
+
   color: gray;
 }
 .en {
+  margin-right: -110px;
   font-size: 15px;
   color: gray;
 }
