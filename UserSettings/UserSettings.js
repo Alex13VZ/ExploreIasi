@@ -13,3 +13,7 @@ function onClickHandler(event) {
 function openLanguages() {
   console.log("s-a facut click");
 }
+
+document.querySelector(".en").addEventListener("click",()=>{
+  document.querySelector(".limba").classList.add("limba-visible")
+})
