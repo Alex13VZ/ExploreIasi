@@ -30,6 +30,33 @@ body {
 .burger-menu {
   margin-right: 17px;
 }
-.search-wrapper{
+.search-wrapper {
   margin-top: 25px;
+}
+
+.container-txt {
+  margin-left: 20px;
+}
+.sp {
+  border: 1px solid purple;
+  border-radius: 30px;
+  padding: 5px;
+  color: purple;
+}
+.sp1 {
+  border: 1px solid purple;
+  border-radius: 30px;
+  margin-left: 10px;
+  padding: 5px;
+  color: purple;
+}
+.box2 {
+  margin-top: 20px;
+}
+.box3 {
+  margin-top: 20px;
+}
+.popular {
+  margin-left: 20px;
+  margin-top: 150px;
 }
