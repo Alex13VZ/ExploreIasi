@@ -1,88 +1,72 @@
 body {
-    margin: 0;
-    padding: 0;
-  
-  }
-  .container {
-    width: 300px;
-    height: 500px;
-  }
-  body {
-    background-image: url(/splash/media/Splash-Image\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
-   
-  @media screen and (min-width: 450px) { 
-    .container {
-      width: 450px;
-      height: 450px;
-      margin: 0 auto;
-      padding: 0;
-     
-    } 
-  } 
-  
-  
-  
-  .container{
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-image: url(/splash/media/Splash-Image\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   width: 100vw;
   
-  
-  }
-  
-  
-  
+}
+.tower-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tower {
+  width: 48.69px;
+  height: 120.5px;
+  left: 162.92px;
+  top: 245px;
+}
+.footer-icons{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
-  
-  .tower {
-    position: absolute;
-    width: 48.69px;
-    height: 120.5px;
-    left: 162.92px;
-    top: 245px;
-  }
-  
-  .powered-by {
-    position: absolute;
-    width: 54px;
-    height: 28px;
-    left: 160px;
-    top: 584px;
-  
-    font-family: "SF Pro Display";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 44px;
-    color: #ffffff;
-  }
-  .exploreiasi {
-    position: absolute;
-    width: 144px;
-    height: 44px;
-    left: 115px;
-    top: 370px;
-  
-    font-family: "Josefin Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 44px;
-    /* identical to box height, or 157% */
-  
-    color: #ffffff;
-  }
-  .Wantsome_Alb {
-    position: absolute;
-    width: 100px;
-    height: 18px;
-    left: 137px;
-    top: 618px;
-  
-    background: url(Wantsome_Alb.png);}
+.powered-by {
+  width: 54px;
+  height: 28px;
+  left: 160px;
+  top: 584px;
+
+  font-family: "SF Pro Display";
+
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 44px;
+  color: #ffffff;
+}
+.exploreiasi {
+  width: 144px;
+  height: 44px;
+  left: 115px;
+  top: 370px;
+
+  font-family: "Josefin Sans";
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+
+  color: #ffffff;
+}
+.Wantsome_Alb {
+  width: 100px;
+  height: 18px;
+  left: 137px;
+  top: 618px;
+
+  background: url(Wantsome_Alb.png);
+}
