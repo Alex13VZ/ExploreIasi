@@ -14,6 +14,16 @@ function openLanguages() {
   console.log("s-a facut click");
 }
 
-document.querySelector(".en").addEventListener("click",()=>{
-  document.querySelector(".limba").classList.add("limba-visible")
-})
+document.querySelector(".en").addEventListener("click", () => {
+  document.querySelector(".limba").classList.add("limba-visible");
+});
+
+function goBackToHome() {
+  console.log("mi");
+  window.location.href = "/home/home.html";
+}
+
+function goToSearch() {
+  console.log("mi");
+  window.location.href = "/search/search.html";
+}

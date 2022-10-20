@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
+    <script async type="module" src="home.js"></script>
 
 </head>
 
@@ -15,7 +16,7 @@
     <section class="sec">
         <div class="container-image">
             <div class="img22">
-                <img class="dreapta" src="/home/media/Ellipse 1.svg" alt="">
+                <img class="dreapta" src="/home/media/Ellipse 1.svg" onclick="goToUserSettings()">
             </div>
 
             <div class="header-wrapper">
@@ -148,7 +149,9 @@
     </div>
 
     <div class="poza9"><img src="/home/media/img (pop location).jpg" alt="">
-        <p class="night">Night Tour</p>
+        <div class="noapte">
+            <p class="night">Night Tour</p>
+        </div>
         <div class="cont1">
             <h4 class="hist">Historical Tour</h4>
             <div class="contul1"><img class="steluta1" src="/home/media/steluta.svg" alt="">
@@ -163,7 +166,9 @@
         </div>
         <div class="poza10">
             <img src="/home/media/christian tour.png" alt="">
-            <p class="dy">Day Tour</p>
+            <div class="zi">
+                <p class="dy">Day Tour</p>
+            </div>
         </div>
         <div class="cont1">
             <h4 class="crt">Christian Tour</h4>
@@ -179,7 +184,9 @@
         </div>
         <div class="poza11">
             <img src="/home/media/botanical tour.png" alt="">
-            <p class="wt">Walking Tour</p>
+            <div class="www">
+                <p class="wt">Walking Tour</p>
+            </div>
         </div>
         <div class="cont1">
             <h4 class="crt">Botanical Tour</h4>
@@ -217,5 +224,13 @@
         <p class="unic">Tours</p>
     </div>
 </div>
+<script>
+    function goToUserSettings() {
+        console.log("mia");
+        window.location.href = "/UserSettings/UserSettings.html";
+
+    }
+
+</script>
 
 </html>

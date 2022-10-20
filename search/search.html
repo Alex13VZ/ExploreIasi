@@ -17,7 +17,7 @@
     <main>
         <div class="search-wrapper">
             <div class="search">
-                <img class="lens" src="/search/media/sageata stanga.png" alt="">
+                <img class="lens" src="/search/media/sageata stanga.png" onclick="goBcackToUs()">
                 <input class="input-search" type="text" placeholder="Search location">
                 <img class="burger-menu" src="/home/media/hamburger.svg">
             </div>
@@ -40,6 +40,13 @@
         </div>
 
     </main>
+    <script>
+        function goBcackToUs() {
+            console.log("mi");
+            window.location.href = "/UserSettings/UserSettings.html";
+        }
+
+    </script>
 </body>
 
 </html>
