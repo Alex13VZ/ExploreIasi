@@ -310,7 +310,7 @@ input:checked + .slider:before {
   width: 100vw;
   opacity: 0;
   z-index: -1;
-  border: solid 1px black;
+  border: solid 1px rgba(128, 128, 128, 0.44);
 }
 .limba-visible {
   opacity: 1;
@@ -327,27 +327,32 @@ input:checked + .slider:before {
 .limba1 {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 10px;
+  justify-content: space-between;
 }
 .limba2 {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 10px;
+  justify-content: space-between;
 }
 .limba3 {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 10px;
+  justify-content: space-between;
 }
 .limba4 {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 10px;
+  justify-content: space-between;
 }
 .limba5 {
   display: flex;
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 10px;
+  justify-content: space-between;
 }
 .sel-lng {
   margin: 0;
@@ -374,4 +379,32 @@ input:checked + .slider:before {
 }
 .sf {
   margin-right: 13px;
+}
+.check,
+.check1,
+.check2,
+.check3,
+.check4 {
+  opacity: 0;
+  z-index: 5;
+  border: none;
+  background-color: white;
+  color: purple;
+  font-weight: 600;
+  transition: opacity 0.8s ease-in;
+}
+.check-visible {
+  opacity: 1;
+}
+.titleFlex {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+.X {
+  border-radius: 50%;
+  background-color: white;
+  color: red;
+  font-weight: 600;
+  transition: opaciti 0.5s ease-in;
 }
