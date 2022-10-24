@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="locationDetail.css">
+    <script async src="/locationDetail/locationDetail.js"></script>
 </head>
 
 <body>
@@ -13,9 +14,251 @@
         <img class="pozaMain" src="/locationDetail/media/poza main.png" alt="">
     </div>
     <div class="cutie">
-        <img class="arr" src="/locationDetail/media/sageata.svg" alt="">
+        <div>
+            <img class="arr" src="/locationDetail/media/sageata.svg" onclick="GoBackToSearch()">
+        </div>
+        <div>
+            <img class="casti" src="/locationDetail/media/casti.svg" alt="">
+        </div>
+    </div>
+    <div class="firstParagraph">
+        <div class="lot1">
+            <img class="icon1" src="/locationDetail/media/stea.svg" alt="">
+            <p class="p1">4.9(400 Reviews)</p>
+        </div>
+        <div class="lot2">
+            <img class="icon2" src="/locationDetail/media/ceas.svg" alt="">
+            <p class="p2">Open now</p>
+        </div>
+    </div>
+    <div class="bigBox">
+        <div class="smallBox">
+            <h2 class="bigtxt">A.I Cuza University</h2>
+            <img class="heart" src="/locationDetail/media/inima.svg" alt="">
+        </div>
+        <div class="smallBox1">
+            <img class="location" src="/locationDetail/media/locationIcon.svg" alt="">
+            <p class="minitxt">Bulevardul Carol I nr. 11, Iasi</p>
+        </div>
+    </div>
+    <h2 class="about">About</h2>
+    <div class="mainSlot">
+        <p class="largetxt">The Alexandru Ioan Cuza University is a public university located in Iași, Romania. Founded
+            one year after the establishment of the Romanian state, by an 1860 decree of Prince Alexandru Ioan Cuza,
+            under whom the former Academia Mihăileană was converted to a university, the University of Iași, as it was
+            named at first, is the oldest university of Romania, and one of its advanced research and education
+            institutions. It is one of the five members of the Universitaria Consortium (the group of elite Romanian
+            universities) ... Read more </p>
+        <div class="mainSlot1">
+            <button class="Btn1">
+                <img src="/locationDetail/media/inima.svg" alt="">
+                <p class="btntext">Save</p>
+            </button>
+            <button class="Btn2">
+                <img src="/locationDetail/media/arrowBtn.svg" alt="">
+                <p class="btntext1">Go to Location</p>
+            </button>
+        </div>
+    </div>
+    <div class="covidBloc">
+        <div class="cv1">
+            <img src="/locationDetail/media/masca.svg" alt="">
+            <h4 class="Cov">Covid-19 safe tips</h4>
+        </div>
+        <div class="cv2">
+            <img src="/locationDetail/media/bifat.svg" alt="">
+            <p class="Cov">Use face mask when you are inside and when there are crowds around you.</p>
+        </div>
+        <div class="cv3">
+            <img src="/locationDetail/media/bifat.svg" alt="">
+            <p class="Cov">Hand sanitizer is available at the entrance</p>
+        </div>
+        <div class="cv4">
+            <img src="/locationDetail/media/bifat.svg" alt="">
+            <p class="Cov">Remember to regulary wash your hands</p>
+        </div>
+        <div class="cv5">
+            <img src="/locationDetail/media/bifat.svg" alt="">
+            <p class="Cov">Keep your phone clean and use sanitized when posible</p>
+        </div>
+    </div>
+    <div class="locMap">
+        <div>
+            <h2>Location map</h2>
+        </div>
+        <div class="flee">
+            <img class="arrdown" src="/locationDetail/media/dawnloadArrow.svg" alt="">
+            <p>Download</p>
+        </div>
+    </div>
+    <div class="google">
+        <img class="google1" src="/locationDetail/media/googlePhoto.png" alt="">
+    </div>
+    <div class="reveBl">
+        <div>
+            <h2>Reviews</h2>
+        </div>
+        <div class="revB">
+            <img class="ST" src="/locationDetail/media/stea.svg" alt="">
+            <p>4.9 (400 Reviews)</p>
+        </div>
+    </div>
+    <div class="reviewsBloc">
+        <div class="star5">
+            <img src="/locationDetail/media/stea.svg" alt="">
+            <p class="five">5</p>
+            <progress id="file" value="74" max="100"> 74% </progress>
+            <p class="three">300</p>
+        </div>
+        <div class="star5">
+            <img src="/locationDetail/media/stea.svg" alt="">
+            <p class="five">4</p>
+            <progress id="file1" value="55" max="100"> 55% </progress>
+            <p class="three">80</p>
+        </div>
+        <div class="star5">
+            <img src="/locationDetail/media/stea.svg" alt="">
+            <p class="five">3</p>
+            <progress id="file2" value="20" max="100"> 20% </progress>
+            <p class="three">10</p>
+        </div>
+        <div class="star5">
+            <img src="/locationDetail/media/stea.svg" alt="">
+            <p class="five">2</p>
+            <progress id="file2" value="20" max="100"> 20% </progress>
+            <p class="three">10</p>
+        </div>
+        <div class="star5">
+            <img src="/locationDetail/media/stea.svg" alt="">
+            <p class="five">1</p>
+            <progress id="file" value="0" max="100"> 0% </progress>
+            <p class="three">0</p>
+        </div>
+    </div>
+    <div class="pictures">
+        <div class="slot0">
+            <div class="slot">
+                <img class="robi" src="/locationDetail/media/pozaRobert.png" alt="">
+            </div>
+            <div class="slot1">
+                <h4>Robert Dumitru</h4>
+                <p class="noiembrie">8 November 2021</p>
+            </div>
+        </div>
+        <div class="slot2">
+            <img class="light" src="/locationDetail/media/stea.svg" alt="">
+            <p class="four">4.0</p>
+        </div>
+    </div>
+    <p class="par1">“Un loc încărcat de istorie și plin de conotații politice și sociale, în care nostalgia foștilor
+        studenți este depășită doar de entuziasmul "bobocilor". O universitate de stat prestigioasă, cu o bază materială
+        și un colectiv profesoral bine pregătit și empatic, care asigură permanent studenților înscriși în diferitele
+        facultăți și specializări aptitudinile și expertiza necesare pentru meseria aleasă.”</p>
+    <div class="pictures">
+        <div class="slot0">
+            <div class="slot">
+                <img class="robi" src="/locationDetail/media/pozaLeonard.png" alt="">
+            </div>
+            <div class="slot1">
+                <h4>Leonard lutia</h4>
+                <p class="noiembrie">19 July 2021</p>
+            </div>
+        </div>
+        <div class="slot2">
+            <img class="light" src="/locationDetail/media/stea.svg" alt="">
+            <p class="four">5.0</p>
+        </div>
+    </div>
+    <p class="par1">“Un loc foarte frumos prin arhitectura lui prin picturi, sculpturi si cu o incarcatura istorica
+        fabuloasa. Arhitectura este cu totul si cu totul deosebita si unica in tara. Biblioteca este de asemenea un loc
+        unic in tara si de ce nu si in lume.”</p>
+    <div class="pictures">
+        <div class="slot0">
+            <div class="slot">
+                <img class="robi" src="/locationDetail/media/pozaTeodora.png" alt="">
+            </div>
+            <div class="slot1">
+                <h4>Teodora Calarasu</h4>
+                <p class="noiembrie">24 September 2020</p>
+            </div>
+        </div>
+        <div class="slot2">
+            <img class="light" src="/locationDetail/media/stea.svg" alt="">
+            <p class="four">3.8</p>
+        </div>
+    </div>
+    <p class="par1">“Un loc foarte frumos prin arhitectura lui prin picturi, sculpturi si cu o incarcatura istorica
+        fabuloasa. Arhitectura este cu totul si cu totul deosebita si unica in tara. Biblioteca este de asemenea un loc
+        unic in tara si de ce nu si in lume.”</p>
+    <div class="pictures">
+        <div class="slot0">
+            <div class="slot">
+                <img class="robi" src="/locationDetail/media/pozaAlex.png" alt="">
+            </div>
+            <div class="slot1">
+                <h4>Alex Popescu</h4>
+                <p class="noiembrie">02 February 2020</p>
+            </div>
+        </div>
+        <div class="slot2">
+            <img class="light" src="/locationDetail/media/stea.svg" alt="">
+            <p class="four">4.3</p>
+        </div>
+    </div>
+    <p class="par1">“Cea mai serioasa Universitate din Romania! Absolventii de aici vor fi intotdeauna bine vazuti,
+        indiferent unde se angajeaza.”</p>
+    <div class="lastBtn">
+        <button class="ultBtn">
+            <img class="lastStar" src="/locationDetail/media/stea.svg" alt="">
+            <h3 class="spatiu">See all Reviews</h3>
+        </button>
+    </div>
+    <div class="Thebox">
+        <div class="mm">
+            <h2>Similar Location</h2>
+        </div>
+        <div class="Lbox">
+            <img class="Pic" src="/locationDetail/media/purpleLocIcon.svg" alt="">
+            <h4>See all</h4>
+        </div>
+    </div>
+    <div class="LastBloc">
+        <div class="Forest">
+            <img class="padurea" src="/locationDetail/media/pozaPadure.png" alt="">
+            <div class="forest1">
+                <img src="/locationDetail/media/greyStar.svg" alt="">
+                <p>3.8 (120 Reviews)</p>
+            </div>
+            <div class="forest2">
+                <img class="greyheart" src="/locationDetail/media/greyheart.png" alt="">
+            </div>
+        </div>
+        <div class="Casa2">
+            <img class="casuta" src="/locationDetail/media/pozaCasa.png" alt="">
+            <div class="casa3">
+                <img src="/locationDetail/media/greyStar.svg" alt="">
+                <p class="margina">4.6 (258 Reviews)</p>
+            </div>
+        </div>
     </div>
 
+    <div class="ultimulBloc">
+        <div class="finalBloc1">
+            <h3>Copou Gardens</h3>
+            <div class="lastDet">
+                <img src="/locationDetail/media/locationIcon.svg" alt="">
+                <p class="zapada">Blv. Carol I nr. 31</p>
+            </div>
+        </div>
+        <div class="finalBloc2">
+            <h3>Union Museum</h3>
+            <div class="lastDet">
+                <img src="/locationDetail/media/locationIcon.svg" alt="">
+                <p class="zapada">Blv. Carol I nr. 31</p>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>

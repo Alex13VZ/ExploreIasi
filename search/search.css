@@ -60,3 +60,16 @@ body {
   margin-left: 20px;
   margin-top: 150px;
 }
+
+.nextPage {
+  float: right;
+  margin-top: 20px;
+  width: 15%;
+  border-radius: 20px;
+  background-color: white;
+  padding: 5px;
+  border-color: purple;
+  font-weight: 600;
+  color: purple;
+  box-shadow: 0px 2px 8px;
+}

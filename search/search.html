@@ -22,6 +22,7 @@
                 <img class="burger-menu" src="/home/media/hamburger.svg">
             </div>
         </div>
+        <button class="nextPage" onclick="goToLocDetail()">Go to location detail</button>
         <h2 class="popular">Popular searches</h2>
         <div class="container-txt">
             <div class="box1">
@@ -44,6 +45,12 @@
         function goBcackToUs() {
             console.log("mi");
             window.location.href = "/UserSettings/UserSettings.html";
+        }
+
+        function goToLocDetail() {
+            console.log("push")
+            window.location.href = "/locationDetail/locationDetail.html";
+
         }
 
     </script>
