@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.primaPoza {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.casti {
+  position: absolute;
+  right: 16px;
+  top: 44px;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.WhiteARR {
+  position: absolute;
+  left: 16px;
+  top: 50px;
+  width: 20px;
+}
+
+.noapte {
+  position: relative;
+}
+.night {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  position: absolute;
+  left: 16px;
+  top: -40px;
+}
+.mainSlot2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 16px;
+}
+.miniSlot,
+.miniSlot2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Pi1 {
+  position: absolute;
+  left: 35px;
+}
+.tmov {
+  position: absolute;
+  right: 105px;
+}
+.mainSlot3 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px;
+  margin-top: -40px;
+}
+.miniSlot3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.miniSlot4 {
+  display: flex;
+  align-items: center;
+}
+.ore {
+  position: absolute;
+  left: 45px;
+}
+.same {
+  width: 25px;
+}
+.container {
+  padding: 16px;
+}
+
+.covidBloc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  background-color: #f2f3f4;
+  padding: 10px;
+  border-radius: 15px;
+}
+.cv1,
+.cv2,
+.cv3,
+.cv4,
+.cv5 {
+  display: flex;
+}
+.Cov {
+  margin-left: 5px;
+}
+.turulnr1 {
+  position: absolute;
+  left: 16px;
+}
+#PozeMici {
+  position: relative;
+  top: 75px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 16px;
+}
+.primuldiv {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+.divuldoi {
+  position: absolute;
+  left: 125px;
+}
+.divultrei {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 475px;
+  top: -85px;
+}
+.icoane {
+  position: absolute;
+  left: -20px;
+  width: 15px;
+  height: 25px;
+}
+.clasaPePoza {
+  width: 80px;
+  border-radius: 15px;
+}
+.primulcapitol {
+  position: relative;
+  top: -5px;
+  color: #8D8D8D;
+}
+.titlulMeu {
+  position: relative;
+  top: 15px;
+}
