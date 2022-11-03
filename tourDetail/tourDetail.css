@@ -118,7 +118,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  padding: 16px;
+  padding: 8px;
 }
 .primuldiv {
   display: flex;
@@ -133,7 +133,7 @@ body {
   display: flex;
   align-items: center;
   position: relative;
-  left: 475px;
+  left: 450px;
   top: -85px;
 }
 .icoane {
@@ -149,9 +149,368 @@ body {
 .primulcapitol {
   position: relative;
   top: -5px;
-  color: #8D8D8D;
+  color: #8d8d8d;
 }
 .titlulMeu {
   position: relative;
   top: 15px;
+}
+.small {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+.numar2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.movarrow {
+  position: absolute;
+  right: 100px;
+}
+.mov {
+  color: #5e1fe5;
+}
+.pozaG {
+  width: 100%;
+}
+.google {
+  padding: 16px;
+  position: relative;
+  top: -40px;
+}
+
+.reveBl {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -50px;
+  padding: 16px;
+}
+.revB {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ST {
+  margin-right: 5px;
+}
+.star5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.five {
+  margin-left: 5px;
+}
+.three {
+  margin-left: 5px;
+}
+
+#file {
+  width: 100%;
+  margin-left: 5px;
+  height: 20px;
+}
+#file1 {
+  width: 100%;
+  margin-left: 5px;
+  height: 20px;
+}
+
+#file2 {
+  width: 100%;
+  margin-left: 5px;
+  height: 20px;
+}
+.reviewsBloc {
+  padding: 16px;
+  position: relative;
+  top: -75px;
+}
+.txtContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  position: relative;
+  top: -90px;
+}
+.primP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 5px;
+  top: -5px;
+}
+.doiP {
+  display: flex;
+  align-items: center;
+}
+.items {
+  display: flex;
+  align-items: center;
+}
+.rob {
+  width: 60px;
+  border-radius: 50px;
+}
+.ro {
+  position: relative;
+  top: 20px;
+}
+.pe {
+  position: relative;
+  top: -15px;
+  left: 13px;
+  color: #8d8d8d;
+}
+.stea {
+  position: relative;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+}
+.pi {
+  color: #5e1fe5;
+  font-weight: 600;
+}
+
+.paragrafCont {
+  padding: 16px;
+  position: relative;
+  top: -135px;
+}
+
+.linie {
+  border: 1px solid #e0e2ea;
+  border-radius: 25px;
+  margin-left: 16px;
+  margin-right: 16px;
+  position: relative;
+  top: -125px;
+}
+
+.pelut {
+  position: relative;
+  top: -15px;
+  left: 5px;
+  color: #8d8d8d;
+}
+.roLt {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.pe3 {
+  position: relative;
+  top: -15px;
+  left: 20px;
+  color: #8d8d8d;
+}
+
+.ButonPen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  border-color: #5e1fe5;
+  color: #5e1fe5;
+  font-weight: 600;
+  box-shadow: 1px 2px 4px;
+  height: 60px;
+}
+.butonul {
+  padding: 16px;
+  position: relative;
+  top: -140px;
+}
+.steluta {
+  position: relative;
+  right: 5px;
+  width: 25px;
+}
+.lastBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  position: relative;
+  top: -130px;
+}
+.ttt {
+  display: flex;
+  align-items: center;
+  color: #5e1fe5;
+}
+
+.loc {
+  position: relative;
+  right: 5px;
+  color: #5e1fe5;
+  width: 15px;
+}
+.cuvant {
+  color: #5e1fe5;
+}
+
+.primulBlocPoza {
+  position: relative;
+  padding: 16px;
+  top: -120px;
+}
+.poza1 {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  height: 207px;
+}
+.paragraf1 {
+  background-color: #5e1fe5;
+  position: absolute;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: -20px;
+  color: white;
+}
+
+.inimaAl {
+  position: absolute;
+  right: 20px;
+  top: 22px;
+  width: 25px;
+  height: 25px;
+  background: rgba(135, 135, 135, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.txt-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: -4px;
+  padding: 16px;
+}
+.blocMic1 {
+  display: flex;
+  flex-direction: column;
+}
+.AP1 {
+  display: flex;
+  position: relative;
+  top: -20px;
+}
+.blocMic2 {
+  display: flex;
+  flex-direction: column;
+}
+.cui {
+  margin-left: 5px;
+
+  font-family: "SF Pro Text";
+  font-weight: 400;
+  line-height: 16px;
+}
+.cui1 {
+  margin-right: 5px;
+}
+.cui2 {
+  margin-right: 5px;
+  position: relative;
+  top: 17px;
+  width: 15px;
+  height: 15px;
+}
+.AP5 {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -20px;
+}
+.AP6 {
+  display: flex;
+}
+.blocDoiPoza {
+  position: relative;
+  padding: 16px;
+  top: -120px;
+}
+.paragraf2 {
+  background-color: #f59300;
+  position: absolute;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: -20px;
+  color: white;
+}
+
+.bloctreiPoza {
+  position: relative;
+  padding: 16px;
+  top: -120px;
+}
+.paragraf3 {
+  background-color: #2794f9;
+  position: absolute;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: -20px;
+  color: white;
+}
+
+.mainSlot1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: -50px;
+}
+.Btn1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #5e1fe5;
+  background-color: white;
+  border-color: #5e1fe5;
+  border-radius: 5px;
+  width: 120px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.Btn2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #5e1fe5;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 20px;
+  border: none;
+  font-weight: 600;
+}
+.btntext,
+.btntext1 {
+  margin-left: 5px;
 }

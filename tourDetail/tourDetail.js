@@ -114,6 +114,11 @@ blocPoze.forEach((obiect) => {
     obiect.h3text,
     obiect.h6text,
     obiect.imgsrcIcon,
-    obiect.h5text,
+    obiect.h5text
   );
 });
+
+function goBackToTour() {
+  console.log("catel");
+  window.location.href = "/Tours/tours.html";
+}

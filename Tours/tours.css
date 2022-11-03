@@ -59,7 +59,7 @@ body {
   display: flex;
   flex-direction: row;
   position: absolute;
-  top: 380px;
+  top: 405px;
   left: 16px;
 }
 .bt1 {
@@ -126,7 +126,7 @@ body {
 .progres {
   position: absolute;
   left: 16px;
-  top: 460px;
+  top: 500px;
 }
 
 .primaPoza {
@@ -225,7 +225,7 @@ body {
 .allTur {
   position: absolute;
   left: 16px;
-  top: 900px;
+  top: 960px;
 }
 .day1 {
   background-color: #f59300;
