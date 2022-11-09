@@ -124,36 +124,28 @@ body {
   display: flex;
   align-items: center;
   padding: 16px;
+  justify-content: space-between;
 }
 .divuldoi {
-  position: absolute;
-  left: 125px;
 }
 .divultrei {
   display: flex;
   align-items: center;
-  position: relative;
-  left: 450px;
-  top: -85px;
 }
 .icoane {
-  position: absolute;
-  left: -20px;
-  width: 15px;
-  height: 25px;
 }
 .clasaPePoza {
   width: 80px;
   border-radius: 15px;
 }
 .primulcapitol {
-  position: relative;
-  top: -5px;
   color: #8d8d8d;
 }
 .titlulMeu {
-  position: relative;
-  top: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 185px;
+  overflow: hidden;
 }
 .small {
   display: flex;
@@ -161,6 +153,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
+  margin-top: 30px;
 }
 .numar2 {
   display: flex;
@@ -481,8 +474,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: relative;
-  top: -50px;
+  /* position: relative;
+  top: -50px; */
+  margin-top: -115px;
 }
 .Btn1 {
   display: flex;
@@ -493,7 +487,7 @@ body {
   background-color: white;
   border-color: #5e1fe5;
   border-radius: 5px;
-  width: 120px;
+  width: 90px;
   margin-left: 20px;
   font-weight: 600;
 }
@@ -505,7 +499,7 @@ body {
   color: white;
   background-color: #5e1fe5;
   border-radius: 5px;
-  width: 300px;
+  width: 230px;
   margin-right: 20px;
   border: none;
   font-weight: 600;

@@ -12,13 +12,15 @@
 
 <body>
 	<div class="primContainer">
-		<div class="clasa1">
-			<img class="sageataBlack" src="/tourDetailList/media/blackArrow.png" alt="">
-			<h1>Iasi Historical Tour</h1>
-		</div>
-		<div class="clasa2">
-			<img class="coperta" src="/tourDetailList/media/coperta.png" alt="">
-			<img class="creion" src="/tourDetailList/media/creion.png" alt="">
+		<div class="clasele">
+			<div class="clasa1">
+				<img class="sageataBlack" src="/tourDetailList/media/blackArrow.png" onclick="goBackToTourDetail()" alt="">
+				<h1>Iasi Historical Tour</h1>
+			</div>
+			<div class="clasa2">
+				<img class="coperta" src="/tourDetailList/media/coperta.png" alt="">
+				<img class="creion" src="/tourDetailList/media/creion.png" alt="">
+			</div>
 		</div>
 
 
@@ -31,67 +33,209 @@
 				<img class="turn" src="/tourDetailList/media/turnmov.png" alt="">
 				<p class="myseccondtext">5 Locations</p>
 			</div>
+			<div></div>
 		</div>
 	</div>
 
 	<div class="blocMov">
-		<div class="imgBackground">
-			<img class="pozaGoogle" src="/tourDetailList/media/pozaMaps.png" alt="">
-		</div>
-
-		<div class="casa">
-			<div>
-				<img class="primaPozaMica" src="/tourDetailList/media/palariePozaMica.png" alt="">
+		<div class="item-wrapper">
+			<div class="item1">
+				<img class="palarie" src="/tourDetailList/media/palariePozaMica.png" alt="">
+				<img class="palat" src="/tourDetailList/media/palatulPozaMica.png" alt="">
 			</div>
-			<div class="primBox">
-				<img class="arrow" src="/tourDetailList/media/pointerArrow.png" alt="">
-				<p class="word">Start from your current location</p>
-			</div>
-		</div>
-
-		<div class="pozaPlusBox">
-			<div>
-				<img src="/tourDetailList/media/palatulPozaMica.png" alt="">
-			</div>
-			<div class="continut">
-				<div class="triunghi">
-					<img class="tri" src="/tourDetailList/media/triunghiAlbMic.png" alt="">
+			<div class="item2">
+				<div class="title-container">
+					<img class="arrow-first" src="/tourDetailList/media/pointerArrow.png" alt="">
+					<div class="title">Start from your current location</div>
 				</div>
-				<div class="continutLocation">
-					<div class="continut1">
-						<h4>Palatul Culturii</h4>
-						<div class="clasaMica">
-							<img class="locGri" src="/tourDetailList/media/locationgri.png" alt="">
-							<p class="metri">100m</p>
+				<div class="bubble-container">
+					<div class="bubble-title-container">
+						<div class="titlul">Palatul Culturii</div>
+						<div class="open-now-cont">
+							<img class="purple-clock" src="/tourDetailList/media/purpleClock.png" alt="">
+							<div class="open-now-label">Open now</div>
 						</div>
 					</div>
-					<div class="continut2">
-						<img class="ceasMov" src="/tourDetailList/media/purpleClock.png" alt="">
-						<p class="open">Open now</p>
+					<div class="distance">
+						<img src="/tourDetailList/media/locationgri.png" alt="">
+						<div class="distance-label">100m</div>
+					</div>
+					<div class="main-text">
+						The building served as Administrative and Justice Palace until 1955, when its destination
+						was changed, being assigned to the four museums
+					</div>
+					<div class="bottom-bubble-cont">
+						<div class="guide">
+							<img src="/tourDetailList/media/castimov.png" alt="">
+							<div class="guide-label">Guide</div>
+						</div>
+						<div class="bottom-button">
+							<img src="/tourDetailList/media/movarrowBTN.svg" alt="">
+							<div class="go-to-loc">Go to Location</div>
+						</div>
 					</div>
 				</div>
-				<div class="scris">
-					<p class="catel">The building served as Administrative and Justice Palace until 1955, when its
-						destination was
-						changed, being assigned to the four museums</p>
-				</div>
-
-				<div class="ultimaCutie">
-					<div class="pix1">
-						<img class="castiMov" src="/tourDetailList/media/castimov.png" alt="">
-						<p class="ghid">Guide</p>
-					</div>
-					<div class="pix2">
-						<button class="primulButon">
-							<img class="butonArrow" src="/tourDetailList/media/movarrowBTN.svg" alt="">
-							<p>Go to Location</p>
-						</button>
-					</div>
-				</div>
-
 			</div>
-
 		</div>
+		<div class="item-wrapper">
+			<div class="item1">
+				<img class="palarie" src="/tourDetailList/media/palariePozaMica.png" alt="">
+				<img class="palat" src="/tourDetailList/media/palatulPozaMica.png" alt="">
+			</div>
+			<div class="item2">
+				<div class="title-container">
+					<img class="arrow-first" src="/tourDetailList/media/pointerArrow.png" alt="">
+					<div class="title">Start from your current location</div>
+				</div>
+				<div class="bubble-container">
+					<div class="bubble-title-container">
+						<div class="titlul">Palatul Culturii</div>
+						<div class="open-now-cont">
+							<img class="purple-clock" src="/tourDetailList/media/purpleClock.png" alt="">
+							<div class="open-now-label">Open now</div>
+						</div>
+					</div>
+					<div class="distance">
+						<img src="/tourDetailList/media/locationgri.png" alt="">
+						<div class="distance-label">100m</div>
+					</div>
+					<div class="main-text">
+						The building served as Administrative and Justice Palace until 1955, when its destination
+						was changed, being assigned to the four museums
+					</div>
+					<div class="bottom-bubble-cont">
+						<div class="guide">
+							<img src="/tourDetailList/media/castimov.png" alt="">
+							<div class="guide-label">Guide</div>
+						</div>
+						<div class="bottom-button">
+							<img src="/tourDetailList/media/movarrowBTN.svg" alt="">
+							<div class="go-to-loc">Go to Location</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item-wrapper">
+			<div class="item1">
+				<img class="palarie" src="/tourDetailList/media/palariePozaMica.png" alt="">
+				<img class="palat" src="/tourDetailList/media/palatulPozaMica.png" alt="">
+			</div>
+			<div class="item2">
+				<div class="title-container">
+					<img class="arrow-first" src="/tourDetailList/media/pointerArrow.png" alt="">
+					<div class="title">Start from your current location</div>
+				</div>
+				<div class="bubble-container">
+					<div class="bubble-title-container">
+						<div class="titlul">Palatul Culturii</div>
+						<div class="open-now-cont">
+							<img class="purple-clock" src="/tourDetailList/media/purpleClock.png" alt="">
+							<div class="open-now-label">Open now</div>
+						</div>
+					</div>
+					<div class="distance">
+						<img src="/tourDetailList/media/locationgri.png" alt="">
+						<div class="distance-label">100m</div>
+					</div>
+					<div class="main-text">
+						The building served as Administrative and Justice Palace until 1955, when its destination
+						was changed, being assigned to the four museums
+					</div>
+					<div class="bottom-bubble-cont">
+						<div class="guide">
+							<img src="/tourDetailList/media/castimov.png" alt="">
+							<div class="guide-label">Guide</div>
+						</div>
+						<div class="bottom-button">
+							<img src="/tourDetailList/media/movarrowBTN.svg" alt="">
+							<div class="go-to-loc">Go to Location</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item-wrapper">
+			<div class="item1">
+				<img class="palarie" src="/tourDetailList/media/palariePozaMica.png" alt="">
+				<img class="palat" src="/tourDetailList/media/palatulPozaMica.png" alt="">
+			</div>
+			<div class="item2">
+				<div class="title-container">
+					<img class="arrow-first" src="/tourDetailList/media/pointerArrow.png" alt="">
+					<div class="title">Start from your current location</div>
+				</div>
+				<div class="bubble-container">
+					<div class="bubble-title-container">
+						<div class="titlul">Palatul Culturii</div>
+						<div class="open-now-cont">
+							<img class="purple-clock" src="/tourDetailList/media/purpleClock.png" alt="">
+							<div class="open-now-label">Open now</div>
+						</div>
+					</div>
+					<div class="distance">
+						<img src="/tourDetailList/media/locationgri.png" alt="">
+						<div class="distance-label">100m</div>
+					</div>
+					<div class="main-text">
+						The building served as Administrative and Justice Palace until 1955, when its destination
+						was changed, being assigned to the four museums
+					</div>
+					<div class="bottom-bubble-cont">
+						<div class="guide">
+							<img src="/tourDetailList/media/castimov.png" alt="">
+							<div class="guide-label">Guide</div>
+						</div>
+						<div class="bottom-button">
+							<img src="/tourDetailList/media/movarrowBTN.svg" alt="">
+							<div class="go-to-loc">Go to Location</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item-wrapper">
+			<div class="item1">
+				<img class="palarie" src="/tourDetailList/media/palariePozaMica.png" alt="">
+				<img class="palat" src="/tourDetailList/media/palatulPozaMica.png" alt="">
+			</div>
+			<div class="item2">
+				<div class="title-container">
+					<img class="arrow-first" src="/tourDetailList/media/pointerArrow.png" alt="">
+					<div class="title">Start from your current location</div>
+				</div>
+				<div class="bubble-container">
+					<div class="bubble-title-container">
+						<div class="titlul">Palatul Culturii</div>
+						<div class="open-now-cont">
+							<img class="purple-clock" src="/tourDetailList/media/purpleClock.png" alt="">
+							<div class="open-now-label">Open now</div>
+						</div>
+					</div>
+					<div class="distance">
+						<img src="/tourDetailList/media/locationgri.png" alt="">
+						<div class="distance-label">100m</div>
+					</div>
+					<div class="main-text">
+						The building served as Administrative and Justice Palace until 1955, when its destination
+						was changed, being assigned to the four museums
+					</div>
+					<div class="bottom-bubble-cont">
+						<div class="guide">
+							<img src="/tourDetailList/media/castimov.png" alt="">
+							<div class="guide-label">Guide</div>
+						</div>
+						<div class="bottom-button">
+							<img src="/tourDetailList/media/movarrowBTN.svg" alt="">
+							<div class="go-to-loc">Go to Location</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
 	</div>
 
 </body>

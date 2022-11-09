@@ -70,6 +70,9 @@ var blocPoze = [
 function primulMeuFor(imaginesrc, h3, h6textul, imgsrcIcon, h5textul) {
   var primuldiv = document.createElement("div");
   primuldiv.className = "primuldiv";
+  const img = document.createElement("img");
+  img.className = "clasaPePoza";
+  primuldiv.appendChild(img);
   var divuldoi = document.createElement("div");
   divuldoi.className = "divuldoi";
   var divultrei = document.createElement("div");
@@ -77,11 +80,8 @@ function primulMeuFor(imaginesrc, h3, h6textul, imgsrcIcon, h5textul) {
   document.getElementById("PozeMici").appendChild(primuldiv);
   // document.getElementsByClassName("primuldiv").appendChild(divuldoi);
   primuldiv.appendChild(divuldoi);
-  document.getElementById("PozeMici").appendChild(divultrei);
-  const img = document.createElement("img");
-  img.className = "clasaPePoza";
+  primuldiv.appendChild(divultrei);
   // document.getElementsByClassName("primuldiv").appendChild(clasaPePoza);
-  primuldiv.appendChild(img);
   img.src = imaginesrc;
   let h3text = document.createElement("h3");
   h3text.className = "titlulMeu";
@@ -121,4 +121,9 @@ blocPoze.forEach((obiect) => {
 function goBackToTour() {
   console.log("catel");
   window.location.href = "/Tours/tours.html";
+}
+
+function goToTDL() {
+  console.log("i see");
+  window.location.href = "/tourDetailList/tourDetailList.html";
 }

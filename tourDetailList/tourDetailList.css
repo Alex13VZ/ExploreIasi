@@ -3,217 +3,193 @@ body {
   padding: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.primContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: relative;
-  left: 20px;
-  top: 50px;
+
+h1 {
+  margin: 0;
 }
+
+.primContainer {
+  padding: 21px;
+}
+
+.clasele {
+  display: flex;
+  justify-content: space-between;
+}
+
 .clasa1 {
   display: flex;
   align-items: center;
 }
+
 .clasa2 {
   display: flex;
   align-items: center;
 }
 .sageataBlack {
-  position: relative;
-  right: 20px;
-  width: 20px;
+  margin-right: 20px;
 }
 .coperta {
   width: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 .creion {
-  position: relative;
-  left: 18px;
   width: 20px;
 }
 .secondContainer {
-  position: absolute;
-  top: 50px;
-  left: 5px;
   display: flex;
 }
 .first {
   display: flex;
   align-items: center;
-  position: relative;
-  left: 20px;
 }
 .seccond {
   display: flex;
   align-items: center;
-  position: relative;
-  left: 60px;
 }
 .ceas {
   width: 20px;
 }
 .mytext {
-  position: relative;
-  left: 8px;
+  margin: 0 18px 0 7px;
 }
 .turn {
   width: 20px;
-  position: relative;
-  right: 6px;
+  margin-right: 7px;
 }
 .myseccondtext {
   color: #5e1fe5;
 }
 .blocMov {
   width: 100%;
-  height: 1686px;
-  background-color: #5e1fe5;
-  position: relative;
-  top: 100px;
-}
-.pozaGoogle {
-  opacity: 0.2;
-  width: 100%;
-  height: 1686px;
-}
-.casa {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 40px;
-  left: 40px;
-}
-.primBox {
-  display: flex;
-  align-items: center;
+  background-image: url("/tourDetailList/media/pozaMaps.png");
 }
 
-.primaPozaMica {
-  width: 45px;
-}
-.arrow {
-  position: relative;
-  left: 25px;
-  width: 20px;
-}
-.word {
-  position: relative;
-  left: 40px;
-  color: white;
-  font-size: x-large;
+
+.item-wrapper {
+  padding: 32px 16px;
+  display: flex;
+  background: linear-gradient(91.95deg, rgba(94, 31, 229, 0.29) 22.38%, rgba(129, 33, 255, 0.29) );
 }
 
-.pozaPlusBox {
-  position: absolute;
-  top: 150px;
-  left: 28px;
-  display: flex;
-}
-.continut {
-  width: 354px;
-  height: 252px;
-  border-color: #5e1fe5;
-  box-shadow: 2px 2px 2px 2px;
-  border-radius: 20px;
-  background-color: white;
+.item1 {
   position: relative;
-  left: 25px;
-}
-.triunghi {
-  position: relative;
-  left: -10px;
-  top: 20px;
-}
-.tri {
-  width: 12px;
-  height: 20px;
-}
-.continutLocation {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.continut1 {
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: -20px;
-  left: -25px;
+  align-items: center;
 }
-.clasaMica {
+.item1::before {
+  content: "";
+  height: 140%;
+  width: 2px;
+  background-color: white;
+  position: absolute;
+  z-index: 0;
+}
+
+.palarie {
+  height: 32px;
+  width: 32px;
+  margin-bottom: 23px;
+  z-index: 1;
+}
+.palat {
+  height: 64px;
+  width: 64px;
+  z-index: 1;
+}
+
+.item2 {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.title-container {
+  height: 32px;
   display: flex;
   align-items: center;
-  position: relative;
-  top: -30px;
+  color: white;
 }
-.continut2 {
+.arrow-first {
+  margin-right: 10px;
+}
+
+.bubble-container {
+  margin-top: 23px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px #3f0fa6;
+  border-radius: 16px;
+  padding: 16px;
+}
+.bubble-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.titlul {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+}
+.open-now-cont {
   display: flex;
   align-items: center;
-  position: relative;
-  top: -45px;
-  right: -25px;
+  color: #3f0fa6;
 }
-.locGri {
-  width: 20px;
-  height: 20px;
+.distance {
+  display: flex;
+  margin-bottom: 13px;
 }
-.metri {
-  position: relative;
-  left: 10px;
+.distance-label {
+  margin-left: 8px;
 }
-.ceasMov {
-  width: 20px;
-  height: 20px;
-  position: relative;
-  right: 10px;
+
+.purple-clock {
+  height: 15px;
+  margin-right: 8px;
 }
-.open {
+
+.main-text {
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.guide {
+  display: flex;
+}
+
+.guide-label {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.24px;
   color: #5e1fe5;
 }
-.scris {
-  position: relative;
-  top: -75px;
-  left: 10px;
-  padding: 10px;
+
+.bottom-button {
+  display: flex;
+  align-items: center;
+  padding: 11px;
+  border: 1px solid #5e1fe6;
+  border-radius: 8px;
 }
-.ultimaCutie{
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	position: relative;
-	top: -80px;
+
+.bottom-bubble-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.pix1{
-	display: flex;
-	align-items: center;
-}
-.pix2{
-	display: flex;
-	align-items: center;
-}
-.primulButon{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 15px;
-	border-color: #5e1fe5;
-	background-color: white;
-	width: 150px;
-	font-weight: 750;
-	color: #5e1fe5;
-}
-.butonArrow{
-	position: relative;
-	right: 5px;
-}
-.castiMov{
-	width: 25px;
-	height: 25px;
-	position: relative;
-	left: -20px;
-}
-.ghid{
-	color: #5e1fe5;
-	font-weight: 600;
+.go-to-loc {
+  margin-left: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+
+  letter-spacing: -0.24px;
+
+  color: #5e1fe6;
 }
