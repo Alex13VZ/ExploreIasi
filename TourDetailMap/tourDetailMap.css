@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primContainer {
+  padding: 21px;
+}
+
+.clasele {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clasa1 {
+  display: flex;
+  align-items: center;
+}
+
+.clasa2 {
+  display: flex;
+  align-items: center;
+}
+.sageataBlack {
+  margin-right: 20px;
+}
+.coperta {
+  width: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.creion {
+  width: 20px;
+}
+.secondContainer {
+  display: flex;
+}
+.first {
+  display: flex;
+  align-items: center;
+}
+.seccond {
+  display: flex;
+  align-items: center;
+}
+.ceas {
+  width: 20px;
+}
+.mytext {
+  margin: 0 18px 0 7px;
+}
+.turn {
+  width: 20px;
+  margin-right: 7px;
+}
+.myseccondtext {
+  color: #5e1fe5;
+}
+
+.background-image {
+  background-image: url("/TourDetailMap/media/POZAgOOgLE.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 150px;
+}
+
+.poza1 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 185px;
+  top: 25px;
+}
+
+.poza2 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 28px;
+  left: 340px;
+}
+
+.poza3 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 122px;
+  left: 56px;
+}
+
+.poza4 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 184px;
+  left: 159px;
+}
+
+.poza5 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 207px;
+  left: 259px;
+}
+
+.poza6 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 260px;
+  left: 54px;
+}
+
+.cerc-imagine {
+  border-radius: 50%;
+  border-color: white;
+  background-color: white;
+  position: absolute;
+  padding: 15px;
+  top: 258px;
+  left: 300px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+}
+
+.last-box-container {
+  position: absolute;
+  top: 405px;
+  left: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poza-palat {
+  width: 270px;
+  height: 170px;
+}
+
+.castile {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.continut-container {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  top: 155px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.cevaMic {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 17px;
+}
+
+.palat-margini {
+  margin-left: 16px;
+  margin-top: 17px;
+}
+
+.margine-paragraf {
+  margin-left: 8px;
+}
+
+.buton-mic {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 180px;
+  top: 170px;
+  border: 1px solid #5e1fe5;
+  padding: 12px;
+  border-radius: 10px;
+  color: #5e1fe5;
+  font-weight: 600;
+}
+
+.mini-par {
+  margin-left: 5px;
+}
+
+.img-item1 {
+  margin-left: -20px;
+  position: absolute;
+  left: 310px;
+}
+.continut-container-dosoftei {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  top: 155px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  left: 309px;
+  margin-left: -20px;
+}
+
+.palat-margini-dosoftei {
+  margin-left: 16px;
+  margin-top: 17px;
+}
+
+.poza-palat-dosoftei {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 270px;
+  height: 170px;
+}
