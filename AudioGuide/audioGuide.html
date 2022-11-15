@@ -49,9 +49,13 @@
 			<p class="margineP">1/5</p>
 		</div>
 
-		<div class="progresBar">
+		<!-- <div class="progresBar">
 			<progress id="file" value="35" max="100"> 74% </progress>
-		</div>
+		</div> -->
+		<div class="w3-progress-container w3-round-xlarge">
+			<div class="w3-progressbar w3-round-xlarge" style="width:25%"></div>
+			<div class="song-position"></div>
+		  </div>
 
 		<div class="container-timp">
 			<div>
@@ -67,8 +71,8 @@
 				<p class="puncteNegre">. . .</p>
 				<img src="/AudioGuide/media/leftBlackArrow.png" alt="">
 			</div>
-			<div class="triunghi">
-				<img src="/AudioGuide/media/triunghiALB.png" alt="">
+			<div class="triunghi" onclick="playMusic()">
+				<img src ="/AudioGuide/media/triunghiALB.png" alt="">
 			</div>
 			<div class="nr2">
 				<img class="arowDreapta" src="/AudioGuide/media/rightBlackArrow.png" alt="">
