@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
-    <script async type="module" src="home.js"></script>
+    <script async src="home.js"></script>
 
 </head>
 
@@ -15,7 +15,7 @@
 
     <section class="sec">
         <div class="container-image">
-            <img class="slide" name = "slide" height="200">
+            <img class="slide" name="slide" height="200">
             <div class="img22">
                 <img class="dreapta" src="/home/media/Ellipse 1.svg" onclick="goToUserSettings()">
             </div>
@@ -32,7 +32,8 @@
             <div class="search-wrapper">
                 <div class="search">
                     <img class="lens" src="/home/media/icon.svg" alt="">
-                    <input class="input-search" type="text" placeholder="Search location">
+                    <button onclick="GotOsearchPage()" class="input-search" type="text"
+                        placeholder="Search location">Search Location ...</button>
                     <img class="burger-menu" src="/home/media/hamburger.svg">
                 </div>
             </div>
@@ -225,43 +226,5 @@
         <p class="unic">Tours</p>
     </div>
 </div>
-<script>
-    function goToUserSettings() {
-        console.log("mia");
-        window.location.href = "/UserSettings/UserSettings.html";
-
-    }
-
-    var i = 0; 			// Start Point
-var images = [];	// Images Array
-var time = 3000;	// Time Between Switch
-	 
-// Image List
-images[0] = "/home/media/pozaPalat.png";
-images[1] = "/home/media/insidePalace.jpg";
-images[2] = "/home/media/insidePalace1.jpg";
-images[3] = "/home/media/outsidePalace.jpg";
-
-// Change Image
-function changeImg(){
-	document.slide.src = images[i];
-
-	// Check If Index Is Under Max
-	if(i < images.length - 1){
-	  // Add 1 to Index
-	  i++; 
-	} else { 
-		// Reset Back To O
-		i = 0;
-	}
-
-	// Run function every x seconds
-	setTimeout("changeImg()", time);
-}
-
-// Run function when page loads
-window.onload=changeImg; 
-
-</script>
 
 </html>
