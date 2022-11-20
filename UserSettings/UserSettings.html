@@ -113,11 +113,13 @@
     </div>
 
     <div class="limba">
+        <div class="close-panel-container">
+            <div class="close-panel"></div>
+        </div>
         <div class="titleFlex">
             <h4 class="sel-lng">Select your language</h4>
-            <button class="X">X</button>
         </div>
-        <div class="limba1">
+        <!-- <div class="limba1">
             <div class="limba1">
                 <img class="marime-icon" src="/UserSettings/media/united-kingdom.png" alt="">
                 <h5 class="ml">English</h5>
@@ -155,8 +157,41 @@
                 <h5 class="ml">Italian</h5>
             </div>
             <button class="check4">V</button>
-        </div>
+        </div> -->
 
+
+        <form name="myform" action="">
+
+
+            <div class="language-container" onclick="myFunction()">
+                <div class="language">
+                    <div class="language-label-container"><img class="marime-icon"
+                            src="/UserSettings/media/united-kingdom.png" alt=""><label for="English">English</label>
+                    </div> <input   type="radio" name="radio_value" id="English" value="English" checked></input>
+                </div>
+
+                <div class="language">
+                    <div class="language-label-container"><img class="marime-icon" src="/UserSettings/media/romania.png"
+                            alt=""><label for="Romanian">Romanian</label>
+                    </div> <input type="radio" name="radio_value" id="Romanian" value="English" checked></input>
+                </div>
+                <div class="language">
+                    <div class="language-label-container"><img class="marime-icon" src="/UserSettings/media/germany.png"
+                            alt=""><label for="German">German</label>
+                    </div> <input type="radio" name="radio_value" id="German" value="English" ></input>
+                </div>
+                <div class="language">
+                    <div class="language-label-container"> <img class="marime-icon" src="/UserSettings/media/france.png"
+                            alt=""><label for="French">French</label>
+                    </div> <input type="radio" name="radio_value" id="French" value="English" ></input>
+                </div>
+                <div class="language">
+                    <div class="language-label-container"><img class="marime-icon" src="/UserSettings/media/italy.png"
+                            alt=""><label for="Italian">Italian</label>
+                    </div> <input type="radio" name="radio_value" id="Italian" value="English" ></input>
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 

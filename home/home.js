@@ -36,3 +36,11 @@ window.onload = changeImg;
 function GotOsearchPage() {
   window.location.href = "/search/search.html";
 }
+
+function GotoCUza() {
+  window.location.href = "/locationDetail/locationDetail.html";
+}
+
+function goTours() {
+  window.location.href = "/Tours/tours.html";
+}

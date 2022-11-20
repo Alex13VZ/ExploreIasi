@@ -10,7 +10,7 @@
       Remove all code in `styles.css`!
     -->
   <link rel="stylesheet" href="login.css" />
-  <script async type="module" src="login.js" defer></script>
+  <script async src="login.js" defer></script>
 
 </head>
 
@@ -45,27 +45,13 @@
       <input id="parola" type="password" placeholder="Your Password:" />
     </div>
 
-    <div class="forgot-password">Forgot Password?</div>
-    <div class="register">Don’t have an account yet? Register here</div>
-    <button class="submit" onclick="marafet()">Sign in</button>
+    <div class="forgot-password" >Forgot Password?</div>
+    <div class="register" id="eroareLogin">Don’t have an account yet? Register here</div>
+    <button class="submit" onclick="logIn()">Sign in</button>
   </div>
-  <script>
-    const loginData = {
-      username: "alex",
-      password: "alex",
-    };
-    const user = document.getElementById('user');
-    const password = document.getElementById('parola');
 
-    function marafet() {
-      if (user.value === loginData.username && password.value === loginData.password) {
-        window.location.href = "/home/home.html";
-      } else {
-        alert('user or password incorrect')
-      }
-    }
+  
 
-  </script>
 </body>
 
 </html>

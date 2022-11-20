@@ -1,4 +1,4 @@
-const toog = document.querySelectorAll(".sw").checked;
+// const toog = document.querySelectorAll(".sw").checked;
 
 function onClickHandler(event) {
   console.log(event);
@@ -18,7 +18,7 @@ document.querySelector(".en").addEventListener("click", () => {
   document.querySelector(".limba").classList.add("limba-visible");
 });
 
-document.querySelector(".X").addEventListener("click", () =>{
+document.querySelector(".close-panel").addEventListener("click", () =>{
   document.querySelector(".limba").classList.remove("limba-visible");
 }
 )
