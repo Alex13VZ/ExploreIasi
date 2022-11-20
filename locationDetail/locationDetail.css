@@ -2,6 +2,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
 .pozaMain {
   width: 100%;
   border-top-left-radius: 10px;
@@ -82,12 +88,13 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: purple;
+  color: #5E1FE5;
   background-color: white;
   border-radius: 5px;
   width: 100px;
   margin-left: 20px;
   font-weight: 600;
+  border: 1px solid #5E1FE5;
 }
 .Btn2 {
   display: flex;
