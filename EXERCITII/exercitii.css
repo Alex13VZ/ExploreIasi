@@ -1,0 +1,8 @@
+#canta{
+	width: 80px;
+	transition: all 0.5s ease-in-out;
+}
+
+#canta:hover{
+	width: 150px;
+}
