@@ -1,8 +1,24 @@
-#canta{
-	width: 80px;
-	transition: all 0.5s ease-in-out;
+#canta {
+  width: 80px;
+  transition: all 0.5s ease-in-out;
 }
 
-#canta:hover{
-	width: 150px;
+#canta:hover {
+  width: 150px;
+}
+
+#main-container {
+  display: flex;
+}
+
+#prima-pagina {
+  border: 1px solid black;
+  width: 100vh;
+  height: 100vw;
+}
+
+#pagina-doi {
+  border: 1px solid black;
+  width: 100vh;
+  height: 100vw;
 }

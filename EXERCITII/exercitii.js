@@ -1,14 +1,30 @@
-var playMusic = true;
-var audio = new Audio("/AudioGuide/media/jazz.mp3");
+// function schimbaCuloarea(){
+//   console.log("pisica");
+// }
 
-function song() {
-  if (playMusic) {
-    audio.play();
-  } else {
-    audio.pause();
-  }
-  playMusic = !playMusic;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+// var playMusic = true;
+// var audio = new Audio("/AudioGuide/media/jazz.mp3");
+
+// function song() {
+//   if (playMusic) {
+//     audio.play();
+//   } else {
+//     audio.pause();
+//   }
+//   playMusic = !playMusic;
+// }
 
 // ex nr 2
 
@@ -91,3 +107,5 @@ function song() {
 // function mars() {
 //   document.getElementById("canta").style.width = "80px";
 // }
+
+
