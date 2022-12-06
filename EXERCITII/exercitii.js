@@ -2,18 +2,6 @@
 //   console.log("pisica");
 // }
 
-
-
-
-
-
-
-
-
-
-
-
-
 // var playMusic = true;
 // var audio = new Audio("/AudioGuide/media/jazz.mp3");
 
@@ -65,11 +53,6 @@
 // var g = [1,"2","dog",false]
 // var k =[1,2,3,4,5,6];
 
-
-
-
-
-
 // // if (k.length) {
 // //   console.log("valoarea este adevarata");
 // // } else {
@@ -108,4 +91,34 @@
 //   document.getElementById("canta").style.width = "80px";
 // }
 
+function addItem() {
+  var scris = document.getElementById("inputText");
+  console.log(scris);
+  var par = document.createElement("p");
+  par.id = "added-item";
+  var x = document.createElement("INPUT");
+  x.id = "checkbox";
+  x.setAttribute("type", "checkbox");
+  x.setAttribute("onclick", "hasmocar()");
+  if (!scris.value == "") {
+    par.innerHTML = scris.value;
 
+    var divItem = document.createElement("div");
+    divItem.className = "div-item";
+    divItem.appendChild(x);
+    divItem.appendChild(par);
+    document.getElementById("wrapper").appendChild(divItem);
+  }
+  scris.focus();
+}
+
+function hasmocar() {
+  var checkvalue = document.getElementById("checkbox");
+  if (checkvalue.checked) {
+    var linie = document.getElementById("added-item");
+    linie.className = "linie";
+  } else {
+    var linie = document.getElementById("added-item");
+    linie.classList.remove("linie");
+  }
+}
