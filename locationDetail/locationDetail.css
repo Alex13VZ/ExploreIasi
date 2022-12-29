@@ -19,6 +19,29 @@ a:active {
   display: flex;
   justify-content: space-between;
 }
+
+#nextPage {
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 20px;
+  top: 200px;
+}
+.fwdPage {
+  width: 15px;
+  height: 15px;
+}
+.fwdPage:hover {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(167, 240, 11);
+  border-radius: 50%;
+  transition: 0.5s;
+  padding: 3px;
+}
 .casti {
   color: white;
   background-color: white;
@@ -88,13 +111,13 @@ a:active {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #5E1FE5;
+  color: #5e1fe5;
   background-color: white;
   border-radius: 5px;
   width: 100px;
   margin-left: 20px;
   font-weight: 600;
-  border: 1px solid #5E1FE5;
+  border: 1px solid #5e1fe5;
 }
 .Btn2 {
   display: flex;
@@ -106,6 +129,7 @@ a:active {
   border-radius: 5px;
   width: 250px;
   margin-right: 20px;
+  margin-left: 20px;
   border: none;
   font-weight: 600;
 }

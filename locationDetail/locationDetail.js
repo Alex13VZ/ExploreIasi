@@ -15,3 +15,7 @@ document.querySelector(".p2").addEventListener("click", () => {
 document.querySelector(".BtnClose").addEventListener("click", () => {
   document.querySelector(".time").classList.remove("time-visible");
 });
+
+// function goNext() {
+//   window.location.href = "/MyActivites/myactivites.html";
+// }

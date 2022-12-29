@@ -14,7 +14,6 @@ p {
   flex-direction: column;
 }
 .container-image {
-
   /* background-image: url("/home/media/image\ 1.png"); */
   z-index: 0;
   border-top-left-radius: 10px;
@@ -357,6 +356,8 @@ h1 {
   margin-left: 40px;
   margin-top: -10px;
   position: absolute;
+  padding: 5px;
+  border-radius: 10px;
 }
 .contul1 {
   display: flex;
@@ -402,6 +403,8 @@ h1 {
   position: absolute;
   margin-left: 30px;
   margin-top: -10px;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .crt {
@@ -417,6 +420,8 @@ h1 {
   position: absolute;
   margin-left: 30px;
   margin-top: -10px;
+  padding: 5px;
+  border-radius: 10px;
 }
 .butonel {
   background-color: white;
@@ -483,11 +488,11 @@ h1 {
   transform: translateX(10px);
 }
 
-.slide{
+.slide {
   width: 100%;
   position: absolute;
 }
-.header-wrapper{
+.header-wrapper {
   z-index: 1;
   margin-left: 20px;
 }
