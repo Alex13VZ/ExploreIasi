@@ -91,6 +91,42 @@
 //   document.getElementById("canta").style.width = "80px";
 // }
 
+// function addItem() {
+//   var scris = document.getElementById("inputText");
+//   console.log(scris);
+//   var par = document.createElement("p");
+//   par.id = "added-item";
+//   var x = document.createElement("INPUT");
+//   x.id = "checkbox";
+//   x.setAttribute("type", "checkbox");
+//   x.setAttribute("onclick", "createList()");
+//   if (!scris.value == "") {
+//     par.innerHTML = scris.value;
+
+//     var divItem = document.createElement("div");
+//     divItem.className = "div-item";
+//     divItem.appendChild(x);
+//     divItem.appendChild(par);
+//     document.getElementById("wrapper").appendChild(divItem);
+//   }
+//   scris.focus();
+// }
+
+// function createList() {
+//   var checkbox = document.getElementById("checkbox");
+// checkbox.addEventListener("change", function() {
+//   var addedItem = document.getElementById("added-item");
+//   if (checkbox.checked) {
+//     addedItem.classList.add("linie");
+//   } else {
+//     addedItem.classList.remove("linie");
+//   }
+// });
+
+
+// }
+
+
 function addItem() {
   var scris = document.getElementById("inputText");
   console.log(scris);
@@ -99,7 +135,13 @@ function addItem() {
   var x = document.createElement("INPUT");
   x.id = "checkbox";
   x.setAttribute("type", "checkbox");
-  x.setAttribute("onclick", "hasmocar()");
+  x.addEventListener("change", function() {
+    if (x.checked) {
+      par.classList.add("linie");
+    } else {
+      par.classList.remove("linie");
+    }
+  });
   if (!scris.value == "") {
     par.innerHTML = scris.value;
 
@@ -110,15 +152,4 @@ function addItem() {
     document.getElementById("wrapper").appendChild(divItem);
   }
   scris.focus();
-}
-
-function hasmocar() {
-  var checkvalue = document.getElementById("checkbox");
-  if (checkvalue.checked) {
-    var linie = document.getElementById("added-item");
-    linie.className = "linie";
-  } else {
-    var linie = document.getElementById("added-item");
-    linie.classList.remove("linie");
-  }
 }

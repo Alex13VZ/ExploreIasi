@@ -3,6 +3,7 @@ body {
   background: #666;
   color: #fff;
   padding: 32px;
+  text-decoration-color: red !important;
 }
 
 /* #canta {
@@ -75,6 +76,7 @@ input {
 }
 .linie {
   position: relative;
+
 }
 .linie::after {
   content: ' ';
