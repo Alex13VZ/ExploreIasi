@@ -40,8 +40,22 @@ input {
   margin-bottom: 16px;
 }
 
+#titlu{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #inputText {
   margin-bottom: 60px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 1px 3px 1px ;
+  position: relative;
+  left: 50px;
+
 }
 #wrapper {
   color: black;
@@ -93,3 +107,12 @@ input {
   animation-fill-mode: forwards; 
 }
 
+.buton{
+  background-color: rgb(9, 248, 112);
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 1px 3px 1px ;
+  border: none;
+  position: relative;
+  left: 50px;
+}
