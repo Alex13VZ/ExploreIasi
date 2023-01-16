@@ -1,6 +1,6 @@
 body {
   font-family: "Lato";
-  background: #666;
+  background:#62becebd;
   color: #fff;
   padding: 32px;
   text-decoration-color: red !important;
@@ -45,6 +45,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #96ab18;
 }
 
 #inputText {
