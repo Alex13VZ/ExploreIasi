@@ -55,3 +55,10 @@
 
 //creeaza un input de timp numar 
 // creeaza un buton care la apasarea lui sa mi afiseze 10% din valoarea numarului introdus in input
+
+
+function calcul(){
+	let inputValue = document.getElementById("inputNumber").value;
+	let rezultat = inputValue * 0.1;
+	console.log(rezultat);
+}
