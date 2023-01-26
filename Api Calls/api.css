@@ -10,3 +10,12 @@
 	border-radius: 10px;
 	margin-left: 20px;
 }
+
+#B1,#B2,#B3,#B4{
+	width: 80px;
+	height: 20px;
+	border-radius: 5px;
+	background-color: rgb(247, 247, 4);
+	border: none;
+	box-shadow: 1px 2px 3px;
+}
