@@ -200,7 +200,7 @@ function AfisamToatePersoaneleCuToateDetaliile() {
     Object.keys(element).forEach((e) => {
       let divulMeu = document.createElement("div");
       divulMeu.innerHTML = e + " : " + element[e];
-      container.appendChild(divulMeu);
+      container.appendChild(divulMeu);  
 
       console.log();
     });
