@@ -1,2 +1,11 @@
 <div class="side-nav">
+  <div class="side-nav--first-icon purple-color" (click)="openForm()">
+    <img src="assets/icons/discord-icon.svg" alt="">
+  </div>
+  <div *ngIf="displayIcon" class="side-nav--first-icon">
+    <img src="assets/icons/plus-icon.svg">
+  </div>
+  <div class="side-nav--first-icon">
+    <img src="assets/icons/compass-icon.svg" alt="">
+  </div>
 </div>
