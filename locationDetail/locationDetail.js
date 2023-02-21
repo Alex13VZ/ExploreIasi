@@ -16,6 +16,6 @@ document.querySelector(".BtnClose").addEventListener("click", () => {
   document.querySelector(".time").classList.remove("time-visible");
 });
 
-// function goNext() {
-//   window.location.href = "/MyActivites/myactivites.html";
-// }
+function goNext() {
+  window.location.href = "/MyActivites/myactivites.html";
+}

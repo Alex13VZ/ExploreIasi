@@ -40,3 +40,8 @@ document.addEventListener('click', event => {
     recentSearches.style.display = 'none';
   }
 });
+
+
+function goNext(){
+  window.location.href = "/locationDetail/locationDetail.html"
+}
