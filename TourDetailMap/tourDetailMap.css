@@ -227,3 +227,18 @@ body {
   width: 270px;
   height: 170px;
 }
+
+
+.right-ar{
+  width: 25px;
+  height: 25px;
+
+}
+
+.third-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+ 

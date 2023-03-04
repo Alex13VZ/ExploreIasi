@@ -7,3 +7,7 @@ function goToAudiPage() {
   console.log("click");
   window.location.href = "/AudioGuide/audioGuide.html";
 }
+
+function next() {
+  window.location.href = "/AudioGuide/audioGuide.html";
+}
