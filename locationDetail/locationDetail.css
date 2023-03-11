@@ -29,10 +29,11 @@ a:active {
   position: absolute;
   right: 20px;
   top: 200px;
+  opacity: 0.9;
 }
 .fwdPage {
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
 }
 .fwdPage:hover {
   width: 20px;
