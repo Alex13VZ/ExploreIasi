@@ -29,6 +29,7 @@ a:active {
   position: absolute;
   right: 20px;
   top: 200px;
+  opacity: 0.9;
 }
 .fwdPage {
   width: 25px;
